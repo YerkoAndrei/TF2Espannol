@@ -1,9 +1,10 @@
-﻿Console.Title = "TF2 Español";
+﻿// Ventana
+Console.Title = "TF2 Español";
 Console.BackgroundColor = ConsoleColor.Black;
-
 Console.SetWindowSize(60, 5);
 Console.SetBufferSize(60, 5);
 
+// Encuentra archivos
 var ruta = string.Empty;
 if (Environment.Is64BitOperatingSystem)
     ruta = "C:/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/resource/";
